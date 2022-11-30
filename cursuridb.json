@@ -1,32 +1,31 @@
 {
-"cursuri":[
-    {
-        "id":1,
-        "name":"STREET DANCE COPII",
-        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbfaMvwKm1B67I7WjvLbQpAfJYul-cn3Q4fQ&usqp=CAU",
-        "text":"Street Dance este o denumire generală ce denotă mai multe stiluri de dans, ce au evoluat în spații publice precum pe stradă, în curtea școlilor și în cluburi. De cele mai multe ori sunt improvizații, ce au un caracter social și încurajează interacțiunea cu publicul dar și cu alți dansatori. Termenul de “Street dance” este în general folosit pentru a descrie dansurile hip hop și funk ce au apărut în Statele Unite în anii '70 și care sunt într-o continuă creștere și dezvoltare în cultura hip hop de astăzi (breakdance, popping, locking, hip hop new style, house dance și electro dance). Aceste tipuri de dans sunt foarte populare în ziua de azi, atât ca exercițiu fizic, dar și ca artă și o formă de competiție practicată atât în studio-urile de dans, cât și în alte spații. "
-    },
-
-    {
-        "id":2,
-        "name":"DANCEHALL",
-        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYVaNExeESrhWAOU5jt81gcoMSm0zggOUaIA&usqp=CAU",
-        "text":"Dancehall is a form of Jamaican popular music that emerged from that country's fertile and diverse music industry in the late 1970s. Dancehall music borrowed the sinuous rhythms of reggae music but replaced its spirited live musicians with prerecorded or digitally composed tracks built on pure, driving grooves."
-    },
-
-    {
-        "id":3,
-        "name":"HIP HOP",
-        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnBMH6RMI5ZaPf9-LPjdwYnWDoy6pWOZ9Rhw&usqp=CAU",
-        "text":"Hip hop-ul, atât ca gen muzical, cât și ca cultură, s-a format în prima jumătate a anilor 1970, când petrecerile de casă și petrecerile de blocuri au devenit din ce în ce mai populare în New York , în special în rândul tinerilor afro-americani și latin-americani care locuiau în Bronx și Harlem . Cu toate acestea, muzica hip hop nu a fost înregistrată niciodată sau difuzată la radio sau televiziune până în 1979 , în principal din cauza marginalizării sociale a mediului din jurul artiștilor rap și a lipsei de acceptare a acestora în afara cartierelor ghetoului."
-    },
-
-    {
-        "id":4,
-        "name":"LATINO",
-        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_xx69spzAPGfbVscgaXbiywhwZTiAlR-Mw&usqp=CAU0",
-        "text":"Social Latin dances (Street Latin) include salsa, mambo, merengue, rumba, bachata, bomba and plena. There are many dances which were popular in the first part of the 20th century, but which are now of only historical interest. The Cuban danzón is a good example."
+    "cursuri":[
+        {
+            "id":1,
+            "name":"STREET DANCE COPII",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbfaMvwKm1B67I7WjvLbQpAfJYul-cn3Q4fQ&usqp=CAU",
+            "text":"Street Dance este o denumire generală ce denotă mai multe stiluri de dans, ce au evoluat în spații publice precum pe stradă, în curtea școlilor și în cluburi. De cele mai multe ori sunt improvizații, ce au un caracter social și încurajează interacțiunea cu publicul dar și cu alți dansatori. Termenul de “Street dance” este în general folosit pentru a descrie dansurile hip hop și funk ce au apărut în Statele Unite în anii '70 și care sunt într-o continuă creștere și dezvoltare în cultura hip hop de astăzi (breakdance, popping, locking, hip hop new style, house dance și electro dance). Aceste tipuri de dans sunt foarte populare în ziua de azi, atât ca exercițiu fizic, dar și ca artă și o formă de competiție practicată atât în studio-urile de dans, cât și în alte spații. "
+        },
+        {
+            "id":2,
+            "name":"DANCEHALL",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYVaNExeESrhWAOU5jt81gcoMSm0zggOUaIA&usqp=CAU",
+            "text":"Dancehall is a form of Jamaican popular music that emerged from that country's fertile and diverse music industry in the late 1970s. Dancehall music borrowed the sinuous rhythms of reggae music but replaced its spirited live musicians with prerecorded or digitally composed tracks built on pure, driving grooves."
+        },
+    
+        {
+            "id":3,
+            "name":"HIP HOP",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnBMH6RMI5ZaPf9-LPjdwYnWDoy6pWOZ9Rhw&usqp=CAU",
+            "text":"Hip hop-ul, atât ca gen muzical, cât și ca cultură, s-a format în prima jumătate a anilor 1970, când petrecerile de casă și petrecerile de blocuri au devenit din ce în ce mai populare în New York , în special în rândul tinerilor afro-americani și latin-americani care locuiau în Bronx și Harlem . Cu toate acestea, muzica hip hop nu a fost înregistrată niciodată sau difuzată la radio sau televiziune până în 1979 , în principal din cauza marginalizării sociale a mediului din jurul artiștilor rap și a lipsei de acceptare a acestora în afara cartierelor ghetoului."
+        },
+    
+        {
+            "id":4,
+            "name":"LATINO",
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_xx69spzAPGfbVscgaXbiywhwZTiAlR-Mw&usqp=CAU0",
+            "text":"Social Latin dances (Street Latin) include salsa, mambo, merengue, rumba, bachata, bomba and plena. There are many dances which were popular in the first part of the 20th century, but which are now of only historical interest. The Cuban danzón is a good example."
+        }
+        ]
+    
     }
-    ]
-
-}
