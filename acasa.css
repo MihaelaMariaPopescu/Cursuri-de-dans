@@ -1,0 +1,284 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Sansita Swashed', sans-serif;
+    color: #555;
+}
+
+body {
+    background: url('https://fitclass.ro/fitness-bucuresti/wp-content/uploads/2014/10/street_dance_copii.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: right;
+    background-size:cover;
+    
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5em;
+    margin: 0 0 1.5em 0;
+}
+
+.footer {
+    display:grid;
+    grid-area: footer;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background: white;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0px 4px #ccc;
+    border-radius: 4px;
+    opacity:0.8;
+}
+
+.menu {
+    display:block;
+    margin-top:40px;
+    text-align: right;
+    font-family: Lato, sans-serif;
+    
+}
+
+.lista {
+    list-style-type: none;
+    margin: 0;
+    margin-right:40px;
+    padding: 0;
+    overflow: hidden;
+    background:rgba(-100,-100,-100,0.6);
+        border-radius:3px;
+  }
+.lmeniu {
+    float: right;
+  }
+  
+  .lmeniu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .lmeniu a:hover {
+    background-color: #111;
+  }
+.menu-item {
+    display:inline-block;
+    font-weight:bolder;
+    text-transform: uppercase;
+    font-size: 16px;
+    outline: none;
+    text-decoration: underline;
+}
+.menu-item:hover{
+    background-color: rgb(49, 49, 49);
+    
+}
+
+.subtitle {
+    margin-top:-100px;
+    text-shadow: 1px 1px rgb(49, 48, 48);
+    font-family: 'Sansita Swashed', sans-serif;
+    font-size:xx-large;
+    text-align: center;
+}
+
+.header {
+    margin-top: 20px;
+    margin-left:30px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.desprenoi{
+   border:2px solid black;
+   border-radius:10px;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:70px;
+    display:block;
+    height:400px;
+    width:300px;
+    background-color:#f1f1f1;
+    opacity:0.6;
+    text-align: center;
+    font-size: larger;
+}
+
+.cursuri{
+    border:2px solid black;
+    border-radius:10px;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:70px;
+    display:block;
+    height:400px;
+    width:300px;
+    background-color:#f1f1f1;
+    opacity:0.6;
+    text-align: center;
+    font-size: larger;
+}
+
+.galerie{
+    border:2px solid black;
+    border-radius:10px;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:70px;
+    display:block;
+    height:400px;
+    width:300px;
+    background-color:#f1f1f1;
+    opacity:0.6;
+    text-align: center;
+    font-size: larger;
+}
+
+.grid2{
+    display:grid;
+    grid-template-columns: auto auto auto;
+   align-content: space-evenly;
+}
+
+.text1{
+   padding:10px;
+}
+
+.buton1{
+    margin-top:40px;
+    padding: 10px;
+    border:solid black;
+    color:black;
+ 
+}
+.seemore{ text-decoration: none;
+    color:black;
+    }
+.buton1:hover{
+    background-color:rgb(110, 154, 236);
+    transition-duration: 0.4s;
+
+}
+
+.text2{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+@media (max-width: 990px) {
+    .menu{
+        width:70%;
+    }
+    .lista{
+        float:right;
+    }
+    .menu-item{
+        font-size:13px;
+        display:inline-block;
+    }
+    .lmeniu a{
+        display:block;
+    }
+    .flex{
+        display:flex;
+        flex-direction: row;
+    }
+    .subtitle{
+        text-align: right;
+        float:right;
+        margin-right:10px;
+    }
+    .grid2{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu{
+        width:100%;
+    }
+    .header{
+        position:relative;
+        overflow: hidden;
+    }
+    
+    .menu-item{
+        font-size:13px;
+        display:inline-block; 
+    }
+    .lmeniu a{
+        display:block;
+    }
+    .subtitle{
+        text-align: center;
+        font-size:25px;
+        margin-right:20px;
+        padding:10px;
+        
+    }
+    .grid2{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        
+    }
+
+    .flex{
+        overflow: hidden;
+        display:flex;
+        flex-direction:column-reverse;
+        margin-top: auto;
+    }
+    
+
+
+}
+
+
+
+#inscrieri{
+    margin-top: 40px;
+    padding:10px;
+    background-color:rgb(251, 8, 129);
+    border:solid white;
+    color:white;
+    margin-left: 38%;
+    height:100px;
+    width:270px;
+    font-size:25px;
+}
+
+#inscrieri:hover{
+    background-color: hotpink;
+    transition-duration: 0.5s;
+    color:white;
+}
+
+.ins{
+    text-decoration:none;
+    color:white;
+
+}
+
+
+.galerie{
+    display:grid;
+    
+}
+
+.poze{
+    width:50%;
+    opacity: none;
+}
+

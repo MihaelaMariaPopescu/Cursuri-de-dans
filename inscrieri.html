@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;700&family=Sansita+Swashed:wght@500;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" href="C:\Users\Mihaela\Documents\tehnici web\proiect tw FE\inscrieristyle.css">
+    
+<title>CursurideDans</title>
+
+</head>
+
+<body>
+    <div class="flex">
+
+        <header class="header">
+           <img src="https://cursdedans.ro/wp-content/uploads/2019/02/logo-cursdedans.png"> </img>
+          
+        </header>
+      <nav class="menu">
+             <ul class="lista">
+               <li class="lmeniu"><a class="menu-item" href="contact.html">Contact</a></li>
+              <li class="lmeniu"><a class="menu-item" href="Preturi.html"></i> Preturi</a></li>
+               <li class="lmeniu"><a class="menu-item" href="CursurideDans.html"> Cursuri de dans</a></li>
+              <li class="lmeniu"><a class="menu-item" href="Acasa.html">Acasa</a></li>        
+              </ul>     
+      </nav>
+          </div>
+
+          <div class="container">
+			<form action="inscrieri.html" method="post" id="signup">
+				<h1>Formular inscrieri</h1>
+				<div class="field">
+					<label for="nume">*Nume:</label>
+					<input type="text" id="nume" name="nume" placeholder="Introduceti numele de familie" />
+					<small></small>
+				</div>
+                <div class="field">
+					<label for="prenume">*Prenume:</label>
+					<input type="text" id="prenume" name="prenume" placeholder="Introduceti prenumele" />
+					<small></small>
+				</div>
+                <div class="field">
+					<label for="varsta">*Varsta:</label>
+					<input type="text" id="varsta" name="varsta" placeholder="Introduceti varsta" />
+					<small></small>
+				</div>
+                <div class="field">
+					<label for="stil">*Stilul de dans:</label>
+
+					<select id = "stiluri" >  
+						<option> Selectati stilul de dans </option>  
+						<option> StreetDance copii </option>  
+						<option> Dancehall </option>  
+						<option> Hip Hop </option>  
+						<option> Latino </option>  
+						</select>  
+					<small></small>
+				</div>
+                <div class="field">
+					<label for="ab">Abonament:</label>
+					<select id = "abonamente" >  
+						<option> Selectati tipul abonamentului </option>  
+						<option> 8 sedinte-200RON </option>  
+						<option> 4 sedinte-150RON </option>  
+						<option> 1 sedinta-35RON </option>  
+						<option> 1 sedinta PRIVATA-150RON</option>  
+						</select>  
+					<small></small>
+				</div>
+				<div class="field">
+					<label for="email">*Email:</label>
+					<input type="text" id="email" name="email" placeholder="Enter your email address" />
+					<small></small>
+				</div>
+				<div class="field">
+					<button type="submit" class="full">Submit</button>
+				</div>
+			</form>
+		</div>
+
+          <footer class="footer">Designed by DominoDance 2022</footer>
+
+          <script src="inscrierijs.js"></script>
+</body>
+
+
+
+
+</html>
